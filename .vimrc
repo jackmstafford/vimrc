@@ -34,4 +34,7 @@ set hlsearch
 autocmd BufWinLeave,BufWrite,VimLeave *.* mkview
 autocmd BufWinEnter *.* silent loadview
 
+autocmd Filetype python nnoremap <leader>c I#<esc>
+autocmd Filetype python nnoremap <leader>u ^x
+
 " reload vimrc: so %
