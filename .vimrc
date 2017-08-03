@@ -25,6 +25,7 @@ nnoremap <leader>6 ^
 nnoremap <leader>t :tabe<space>
 nnoremap <leader>tm :tabm<space>
 nnoremap <leader><space> i<space><esc>
+nnoremap <leader>h :noh<cr>
 inoremap jj <esc>
 
 set noshowmatch
