@@ -3,6 +3,7 @@ set number
 set relativenumber
 set scrolloff=5
 set mouse=a
+set belloff=all
 
 filetype plugin indent on
 syntax on
@@ -27,6 +28,7 @@ nnoremap <leader>tm :tabm<space>
 nnoremap <leader><space> i<space><esc>
 nnoremap <leader>h :noh<cr>
 inoremap jj <esc>
+vnoremap jj <esc>
 
 set noshowmatch
 set hlsearch
