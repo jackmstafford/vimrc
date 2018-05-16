@@ -28,7 +28,6 @@ nnoremap <leader>tm :tabm<space>
 nnoremap <leader><space> i<space><esc>
 nnoremap <leader>h :noh<cr>
 inoremap jj <esc>
-vnoremap jj <esc>
 
 set noshowmatch
 set hlsearch
